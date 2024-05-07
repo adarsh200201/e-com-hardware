@@ -1,0 +1,71 @@
+.login-container {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2.4px 7.2px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    /* Adjusted width */
+    max-width: 400px;
+    /* Added max-width */
+    margin: 80px auto 30px;
+    /* Adjusted margin to create space below the navbar */
+    padding: 20px;
+    /* Added padding */
+}
+
+.login-container h1 {
+    text-align: center;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form-container .login-form-control {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    /* Adjusted margin */
+    padding: 8px;
+    /* Adjusted padding */
+    font-size: 0.9rem;
+    /* Adjusted font-size */
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+}
+
+.login-form-container .forgot-password {
+    color: #007bff;
+    font-size: 0.9rem;
+    /* Adjusted font-size */
+    text-decoration: none;
+    margin: 8px 0;
+    /* Adjusted margin */
+}
+
+.login-btn {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 0.9rem;
+    /* Adjusted font-size */
+    padding: 8px 20px;
+    /* Adjusted padding */
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-left: 10px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .login-container {
+        max-width: 500px;
+    }
+}

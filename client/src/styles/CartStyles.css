@@ -1,0 +1,63 @@
+/* Updated CSS for .cart-page */
+.cart-page {
+  margin-top: 65px;
+}
+
+.text-center {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.cart-page h1 {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  height: auto;
+  margin: 10px;
+  background-color: rgba(0, 0, 255, 0.072);
+}
+
+.cart-page h1 > p {
+  font-size: 20px;
+  margin-top: 1px;
+  margin-left: 100px; /* Corrected the typo in margin-left value */
+}
+
+.cart-page .card {
+  margin-top: 10px;
+  padding: 9px;
+  width: 600px;
+  max-width: 100%;
+  background-color: #d7f6f9;
+  color: rgb(12, 20, 18);
+  margin-bottom: 5px;
+}
+
+.cart-page .cart-remove-btn {
+  display: flex;
+  margin-left: 180px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-page .cart-summary {
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .cart-page h1 > p {
+    margin-left: 20px; /* Adjusted margin-left for smaller screens */
+  }
+  
+  .cart-page .card {
+    width: auto; /* Adjusted width for smaller screens */
+    margin-left: 20px; /* Adjusted margin-left for smaller screens */
+    margin-right: 20px; /* Adjusted margin-right for smaller screens */
+  }
+  
+  .cart-page .cart-remove-btn {
+    margin-left: auto; /* Adjusted margin-left for smaller screens */
+    margin-right: auto; /* Adjusted margin-right for smaller screens */
+  }
+}
