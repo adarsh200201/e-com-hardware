@@ -1,2 +1,2 @@
-# ecommerce-app-2024
+# MERN_STACK_THAKUR.HRADWARE_ecommerce-app-2024
 
